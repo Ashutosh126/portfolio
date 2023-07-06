@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <title>ASHUTOSH PANDEY Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="pro.css">  
+<script src="javascript.js"></script>
+<script src="https://kit.fontawesome.com/62df35a1e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+              Ashutosh portfolio
+            </div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" style="color: #e7ebf3;" onclick="closemenu()"></i>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">Hi my name is <span class="purple">ASHUTOSH PANDEY</span> <div>and I am a passionate</div><span id="element"></span></div>
+            <div class="rightsection"><img src="6.png" alt style=" width:80% ;margin: 50px 0;" ></div>
+        </section>
+        <hr style="border:0; background:#9c97f1; height:1.2px; margin:40px 84px;
+        ">
+      
+     <hr style="border:0; background:#9c97f1; height:1.2px; margin:40px 84px;
+     ">
+        <!-- ---------------------about------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/shivamuser.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p class="p1">I am a passionate and enthusiastic coder who is currently focused on learning web development.
+                            With my recent intermediate examination success, I am excited to continue expanding my knowledge
+                            in the field and keeping up-to-date with the latest technologies. As a tech enthusiast, I enjoy
+                            exploring new tools and platforms to optimize my coding skills and build innovative solutions.
+    
+                            My dedication to the craft is fueled by a desire to make a positive impact through technology. I
+                            believe that with the right skills and knowledge, we can create solutions that address complex
+                            challenges and make the world a better place. I am committed to staying at the forefront of the
+                            industry and pushing the boundaries of what is possible through code.
+    
+                            In addition to my technical abilities, I also value collaboration and teamwork. I believe that
+                            the best results come from working together and leveraging the diverse perspectives and
+                            strengths of a team. I am excited to continue growing my skills and contributing to exciting
+                            projects in the world of web development.</p>
+    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills" >
+                            <ul>
+                                <li><span>Web development</span><br> Developing dynamic and static websites.</li>
+                                <li><span>UI/UX</span> <br> Designing web/App interfaces</li>
+                                <li><span>Python</span> <br> solved 100+ questions</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience" >
+                            <ul>
+                                <li><span>Internship</span><br>Web Developer Intern at EXPOSYS DATA LABS</li>
+                                <li><span>Internship</span> <br>Full Stack Development intern at Postulate India Pvt.Ltd></li>
+                                <li><span>Internship</span> <br> currently  working as Intern at Dabotics India Pvt.Ltd.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.Tech-CSE(2020-2024)</span><br>Currently pursuing from Rajkiya Engineering Collage Kannauj</li>
+                                
+                                <li><span>Intermediate</span> <br>Passed in 2019. </li>
+                                <li><span>High School</span> <br>passed in 2017.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!-- -----------------------------services---------- -->
+      <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code" style="color: #dae1ec;"></i>
+                    <h2>Web Designing</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur optio itaque temporibus voluptatibus ipsum repudiandae veritatis natus iure sit eius!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-palette" style="color: #dae1ec;"></i>
+                    <h2>Web Developer.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur optio itaque temporibus voluptatibus ipsum repudiandae veritatis natus iure sit eius!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-linux" style="color: #dae1ec;"></i>
+                    <h2>Data Science.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur optio itaque temporibus voluptatibus ipsum repudiandae veritatis natus iure sit eius!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- --------------------------------------Protfolio---------- -->
+     
+        <!-- --------------------------------------contact----------------- -->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="subtitle">Contact Me</h1>
+                            <p><i class="fa-regular fa-envelope" style="color: #f72222;"></i><a href="mailto:pandeyashu1202@gmail.com" target="_blank" rel="noopener noreferrer">pandeyashu1202@gmail.com</a></p>
+                 
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/ashutosh-pandey-2bb122222" target="_blank"><i class="fa-brands fa-linkedin" style="color: #E4405F;"></i></a>
+                                <a href="https://github.com/Ashutosh126" target="_blank"><i class="fa-brands fa-github" style="color: #5a5858;"></i></a>
+                                
+                            </div>
+                               
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="message" id=""  rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+    
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+     
+    <script>
+       var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px"
+    }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzRv9lpODh7Hdgzk547K6LIdH646_W_krwgC98SyUtGzFOF1NCmX9DWOqor77f9t8D3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Graphic Designer','Web designer','Video Editor'],
+          typeSpeed: 50,
+        });
+      </script> 
+
+</body>
+</html>
